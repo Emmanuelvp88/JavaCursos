@@ -1,9 +1,15 @@
 
+import java.sql.SQLOutput;
 import java.util.Scanner;
+//Primeramente importamos la libreria requerida
 public class Teclado {
+
     public static void main(String [] args){
         int num1, num2, resultado, opcion;
-         Scanner sc = new Scanner(System.in);
+
+
+        Scanner sc = new Scanner(System.in);
+        //Creamos un objeto de tipo "Scanner" gracias a la libreria
 
         System.out.println("***************Bienvenido a la calculadora***************");
         System.out.println("Selecciona el numero de operacion que deseas realizar");
@@ -13,6 +19,9 @@ public class Teclado {
                             "4.- Divicion\n" +
                             "5.- Resto\n");
         opcion = sc.nextInt();
+        //Con esto decimos que "opcion" va ser igual a el objeto "sc" el cual va pedir datos
+        //al usuario y lo alojara en  la variable "opcion"
+
         if(opcion == 1){
             System.out.println("Elegiste la opcion 1.- Suma");
             System.out.println("Dame el primer digito a sumar");
@@ -47,9 +56,13 @@ public class Teclado {
             resultado = num2/num1;
             System.out.println("El resultado de la divicon es: " + resultado);
         }else if(opcion == 5){
-
-            
-
+            System.out.println("Elegiste la opcion 5.- Resto");
+            System.out.println("Dame el numero divisor");
+            num1 = sc.nextInt();
+            System.out.println("Dame el dividendo");
+            num2 = sc.nextInt();
+            resultado = num1 % num2;
+            System.out.println("El resto es: " + resultado);
         } else{
             System.out.println("Opcion no valida, por favor elegige una de las opciones anteriores");
         }
