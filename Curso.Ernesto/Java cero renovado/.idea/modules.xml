@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Datos desde teclado leccion8/Datos desde teclado leccion8.iml" filepath="$PROJECT_DIR$/Datos desde teclado leccion8/Datos desde teclado leccion8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/datos.desde.teclado.lesson8/Datos desde teclado leccion8.iml" filepath="$PROJECT_DIR$/datos.desde.teclado.lesson8/Datos desde teclado leccion8.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java cero renovado.iml" filepath="$PROJECT_DIR$/Java cero renovado.iml" />
-      <module fileurl="file://$PROJECT_DIR$/condicionalesCompuestasConOperadoresLogicosLeccion9/condicionalesCompuestasConOperadoresLogicosLeccion9.iml" filepath="$PROJECT_DIR$/condicionalesCompuestasConOperadoresLogicosLeccion9/condicionalesCompuestasConOperadoresLogicosLeccion9.iml" />
+      <module fileurl="file://$PROJECT_DIR$/estructura.de.control.switch.case.lesson11/estructura.de.control.switch.case.lesson11.iml" filepath="$PROJECT_DIR$/estructura.de.control.switch.case.lesson11/estructura.de.control.switch.case.lesson11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/estructura.repetitiva.do.while/estructura.repetitiva.do.while.iml" filepath="$PROJECT_DIR$/estructura.repetitiva.do.while/estructura.repetitiva.do.while.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sistema.vacacional.lesson9y10/sistema.vacacional.leccion9y10.iml" filepath="$PROJECT_DIR$/sistema.vacacional.lesson9y10/sistema.vacacional.leccion9y10.iml" />
     </modules>
   </component>
 </project>

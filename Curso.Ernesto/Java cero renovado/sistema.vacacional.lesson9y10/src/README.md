@@ -27,7 +27,7 @@ Trabajadores con clave 3 (Gerencia):
 
 
 NOTA: El sistema debe de solicitar "Nombre", "Clave de departamento" y "antiguedad" del trabajador
-posteriormente mostrar un mensaje que contenga el nombre del trabajador y lso dias de vacaciones 
+posteriormente mostrar un mensaje que contenga el nombre del trabajador y los dias de vacaciones 
 alos que tiene derecho.
 
 
