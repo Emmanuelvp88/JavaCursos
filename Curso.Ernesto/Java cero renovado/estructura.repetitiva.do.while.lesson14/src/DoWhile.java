@@ -6,12 +6,9 @@ public class DoWhile {
         int i  = 1000;
 
         do{
-            i -= 200;/*Si pongo el decremento abajo del print si se imprime correctmente hasta el "0", pero se
-             esta imprimiendo el -200 por que la condicion dice que sea mayor o igual a cero, asi que todavia entra la condicion
-            siendo cero*/
-
             System.out.print(i + ",");// sin salto de linea para que se imprime Horizontal
-
+            i -= 200;/*El drecremento se pone despues del print si se pone arriba cambia el resultado
+            porque incrementa primero antes de impriir el resultado actual*/
         }while(i >= 0);
     }
 }
