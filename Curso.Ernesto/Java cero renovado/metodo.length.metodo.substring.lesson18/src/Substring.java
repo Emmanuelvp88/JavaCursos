@@ -18,7 +18,7 @@ public class Substring {
         System.out.println("Cadena ingresada : " + cadenaOriginal + "  contiene " + numDeCaracteres + " caracteres ");
 
 
-        /* Aqui pedimos un numero de inicio y un numero final para que se muestre la cadena*/
+        /* Aqui pedimos un numero de inicio y un numero final para obtener ciertos numeros de caracteres y solo mostrar cierta parte de la cadena*/
         System.out.println("Desde que caracter hasta que caracter quieres que se muestre la cadena");
         desde = sc.nextInt();
         hasta = sc.nextInt();
