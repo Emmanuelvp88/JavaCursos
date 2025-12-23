@@ -1,0 +1,123 @@
+Aquí tienes todas las buenas prácticas más importantes y actualizadas para nombrar clases, variables, métodos, paquetes, constantes e interfaces en Java, siguiendo Java Code Conventions + estándares modernos usados por desarrolladores profesionales.
+
+✅ 1. Nombres de Clases
+✔ Siempre en PascalCase (cada palabra inicia con mayúscula)
+✔ El nombre debe ser sustantivo
+✔ Debe ser claro y descriptivo
+Ejemplos correctos
+public class Usuario { }
+public class CarroDeCompras { }
+public class GestorDeArchivos { }
+
+❌ Incorrecto
+public class usuario { }
+public class carro_de_compras { }
+public class gestorarchivos { }
+
+
+✅ 2. Nombres de Métodos
+✔ Siempre en camelCase
+✔ Deben ser verbos, porque realizan acciones
+✔ Deben decir claramente lo que hacen
+Ejemplos correctos
+public void calcularTotal() { }
+public String obtenerNombre() { }
+public boolean esMayorDeEdad(int edad) { }
+
+❌ Incorrecto
+public void CalcularTotal() { }
+public String ObtenerNombre() { }
+public boolean EsMayor() { }
+
+
+✅ 3. Nombres de Variables
+✔ camelCase
+✔ Nunca iniciar con mayúscula
+✔ Debe explicar qué guarda la variable
+✔ Evita abreviaciones sin sentido
+Ejemplos correctos
+int edad;
+String nombreCompleto;
+double precioTotal;
+boolean esActivo;
+
+❌ Incorrecto
+int Edad;
+String nombre_completo;
+double prcT;
+boolean activo1;
+
+
+✅ 4. Nombres de Constantes (final static)
+✔ Mayúsculas
+✔ Palabras separadas con _
+Ejemplos correctos
+public static final int MAX_USUARIOS = 100;
+public static final String API_URL = "https://api.com";
+
+
+✅ 5. Nombres de Interfaces
+✔ PascalCase
+✔ Deben representar una habilidad o comportamiento
+✔ Preferencia por adjetivos
+Ejemplos
+public interface Volable { }
+public interface Runnable { }
+public interface Imprimible { }
+
+
+✅ 6. Nombres de Paquetes
+✔ Siempre en minúsculas
+✔ Sin mayúsculas, sin acentos, sin _
+✔ Estructura: com.empresa.proyecto.modulo
+Ejemplo correcto
+com.ejemplo.tienda.usuarios
+
+❌ Incorrecto
+Com.Ejemplo.Tienda
+com.ejemplo.TiendaUsuarios
+com.ejemplo.tienda_usuarios
+
+
+✅ 7. Buenas prácticas generales
+✔ No usar nombres cortos
+❌ x, a1, temp
+✔ Usa nombres que digan exactamente qué hacen o qué representan.
+✔ No usar palabras reservadas
+❌ class, int, package
+✔ Métodos pequeños y con un propósito claro
+Si un método hace demasiadas cosas → separarlo.
+✔ Clases pequeñas y coherentes
+Una clase = una responsabilidad (principio SRP).
+
+📌 8. Ejemplo completo con buenas prácticas
+package com.mitienda.productos;
+
+public class Producto {
+
+    private String nombre;
+    private double precio;
+    private boolean disponible;
+
+    public Producto(String nombre, double precio, boolean disponible) {
+        this.nombre = nombre;
+        this.precio = precio;
+        this.disponible = disponible;
+    }
+
+    public double calcularPrecioConImpuestos() {
+        final double IVA = 0.16;
+        return precio + (precio * IVA);
+    }
+
+    public boolean estaDisponible() {
+        return disponible;
+    }
+
+    public String obtenerNombre() {
+        return nombre;
+    }
+}
+
+
+
