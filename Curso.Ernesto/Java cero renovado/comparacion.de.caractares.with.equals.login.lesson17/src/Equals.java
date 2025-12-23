@@ -11,7 +11,7 @@ public class Equals {
         System.out.println("Ingresa el password:");
         pasword = sc.nextLine();
 
-        if (nombre.equalsIgnoreCase("Emmanuel") && pasword.equals("java")){
+        if (nombre.equalsIgnoreCase("Emmanuel") && pasword.equals("java777")){
             System.out.println("Bienvenido al curso de java con Ernesto");
         }else {
             System.out.println("El nombre de usuario o contraseña con incorrectos");
