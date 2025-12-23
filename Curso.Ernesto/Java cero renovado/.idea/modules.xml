@@ -2,18 +2,19 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/datos.desde.teclado.lesson8/Datos desde teclado leccion8.iml" filepath="$PROJECT_DIR$/datos.desde.teclado.lesson8/Datos desde teclado leccion8.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java cero renovado.iml" filepath="$PROJECT_DIR$/Java cero renovado.iml" />
-      <module fileurl="file://$PROJECT_DIR$/arreglos.unidimencionales.vector.lesson19/arreglos.unidimencionales.vector.lesson19.iml" filepath="$PROJECT_DIR$/arreglos.unidimencionales.vector.lesson19/arreglos.unidimencionales.vector.lesson19.iml" />
-      <module fileurl="file://$PROJECT_DIR$/comparacion.de.caractares.with.equals.login.lesson17/comparacion.de.caractares.with.equals.login.lesson17.iml" filepath="$PROJECT_DIR$/comparacion.de.caractares.with.equals.login.lesson17/comparacion.de.caractares.with.equals.login.lesson17.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ejercicio.conn.bucles/ejercicio.conn.bucles.iml" filepath="$PROJECT_DIR$/ejercicio.conn.bucles/ejercicio.conn.bucles.iml" />
-      <module fileurl="file://$PROJECT_DIR$/estructura.de.control.switch.case.lesson11/estructura.de.control.switch.case.lesson11.iml" filepath="$PROJECT_DIR$/estructura.de.control.switch.case.lesson11/estructura.de.control.switch.case.lesson11.iml" />
-      <module fileurl="file://$PROJECT_DIR$/estructura.repetitiva.do.while.lesson14/estructura.repetitiva.do.while.lesson14.iml" filepath="$PROJECT_DIR$/estructura.repetitiva.do.while.lesson14/estructura.repetitiva.do.while.lesson14.iml" />
-      <module fileurl="file://$PROJECT_DIR$/estructura.repetitiva.for.lesson12/estructura.repetitiva.for.lesson12.iml" filepath="$PROJECT_DIR$/estructura.repetitiva.for.lesson12/estructura.repetitiva.for.lesson12.iml" />
-      <module fileurl="file://$PROJECT_DIR$/estructura.repetitiva.while.lesson13/estructura.repetitiva.while.lesson13.iml" filepath="$PROJECT_DIR$/estructura.repetitiva.while.lesson13/estructura.repetitiva.while.lesson13.iml" />
-      <module fileurl="file://$PROJECT_DIR$/metodo.length.metodo.substring.lesson18/metodo.length.metodo.substring.lesson18.iml" filepath="$PROJECT_DIR$/metodo.length.metodo.substring.lesson18/metodo.length.metodo.substring.lesson18.iml" />
-      <module fileurl="file://$PROJECT_DIR$/sistema.vacacional.lesson9y10/sistema.vacacional.leccion9y10.iml" filepath="$PROJECT_DIR$/sistema.vacacional.lesson9y10/sistema.vacacional.leccion9y10.iml" />
-      <module fileurl="file://$PROJECT_DIR$/susecion.fibonaci/susecion.fibonaci.iml" filepath="$PROJECT_DIR$/susecion.fibonaci/susecion.fibonaci.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson8.datos.desde.teclado/leccion8.datos.desde.teclado.iml" filepath="$PROJECT_DIR$/lesson8.datos.desde.teclado/leccion8.datos.desde.teclado.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson9y10.sistema.vacacional/leccion9y10.sistema.vacacional.iml" filepath="$PROJECT_DIR$/lesson9y10.sistema.vacacional/leccion9y10.sistema.vacacional.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson11.estructura.de.control.switch.case/lesson11.estructura.de.control.switch.case.iml" filepath="$PROJECT_DIR$/lesson11.estructura.de.control.switch.case/lesson11.estructura.de.control.switch.case.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson12.estructura.repetitiva.for/lesson12.estructura.repetitiva.for.iml" filepath="$PROJECT_DIR$/lesson12.estructura.repetitiva.for/lesson12.estructura.repetitiva.for.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson13.estructura.repetitiva.while/lesson13.estructura.repetitiva.while.iml" filepath="$PROJECT_DIR$/lesson13.estructura.repetitiva.while/lesson13.estructura.repetitiva.while.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson14.estructura.repetitiva.do.while/lesson14.estructura.repetitiva.do.while.iml" filepath="$PROJECT_DIR$/lesson14.estructura.repetitiva.do.while/lesson14.estructura.repetitiva.do.while.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson15.ejercicio.conn.bucles/lesson15.ejercicio.conn.bucles.iml" filepath="$PROJECT_DIR$/lesson15.ejercicio.conn.bucles/lesson15.ejercicio.conn.bucles.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson16.susecion.fibonaci/lesson16.susecion.fibonaci.iml" filepath="$PROJECT_DIR$/lesson16.susecion.fibonaci/lesson16.susecion.fibonaci.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson17.comparacion.de.caractares.with.equals.login/lesson17.comparacion.de.caractares.with.equals.login.iml" filepath="$PROJECT_DIR$/lesson17.comparacion.de.caractares.with.equals.login/lesson17.comparacion.de.caractares.with.equals.login.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson18.metodo.length.metodo.substring/lesson18.metodo.length.metodo.substring.iml" filepath="$PROJECT_DIR$/lesson18.metodo.length.metodo.substring/lesson18.metodo.length.metodo.substring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson19.arreglos.unidimencionales.vector/lesson19.arreglos.unidimencionales.vector.iml" filepath="$PROJECT_DIR$/lesson19.arreglos.unidimencionales.vector/lesson19.arreglos.unidimencionales.vector.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson20.vectores.dinamicos/lesson20.vectores.dinamicos.iml" filepath="$PROJECT_DIR$/lesson20.vectores.dinamicos/lesson20.vectores.dinamicos.iml" />
     </modules>
   </component>
 </project>
