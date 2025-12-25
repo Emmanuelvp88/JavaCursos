@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Java cero renovado.iml" filepath="$PROJECT_DIR$/Java cero renovado.iml" />
-      <module fileurl="file://$PROJECT_DIR$/arreglos.bidimencionales.matrices.dinamicas/arreglos.bidimencionales.matrices.dinamicas.iml" filepath="$PROJECT_DIR$/arreglos.bidimencionales.matrices.dinamicas/arreglos.bidimencionales.matrices.dinamicas.iml" />
       <module fileurl="file://$PROJECT_DIR$/lesson8.datos.desde.teclado/leccion8.datos.desde.teclado.iml" filepath="$PROJECT_DIR$/lesson8.datos.desde.teclado/leccion8.datos.desde.teclado.iml" />
       <module fileurl="file://$PROJECT_DIR$/lesson9y10.sistema.vacacional/leccion9y10.sistema.vacacional.iml" filepath="$PROJECT_DIR$/lesson9y10.sistema.vacacional/leccion9y10.sistema.vacacional.iml" />
       <module fileurl="file://$PROJECT_DIR$/lesson11.estructura.de.control.switch.case/lesson11.estructura.de.control.switch.case.iml" filepath="$PROJECT_DIR$/lesson11.estructura.de.control.switch.case/lesson11.estructura.de.control.switch.case.iml" />
@@ -17,6 +16,7 @@
       <module fileurl="file://$PROJECT_DIR$/lesson19.arreglos.unidimencionales.vector/lesson19.arreglos.unidimencionales.vector.iml" filepath="$PROJECT_DIR$/lesson19.arreglos.unidimencionales.vector/lesson19.arreglos.unidimencionales.vector.iml" />
       <module fileurl="file://$PROJECT_DIR$/lesson20.vectores.dinamicos/lesson20.vectores.dinamicos.iml" filepath="$PROJECT_DIR$/lesson20.vectores.dinamicos/lesson20.vectores.dinamicos.iml" />
       <module fileurl="file://$PROJECT_DIR$/lesson21.arreglos.bidimencionales.matrices/lesson21.arreglos.bidimencionales.matrices.iml" filepath="$PROJECT_DIR$/lesson21.arreglos.bidimencionales.matrices/lesson21.arreglos.bidimencionales.matrices.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson22Y23.arreglos.bidimencionales.matrices.dinamicas/lesson22Y23.arreglos.bidimencionales.matrices.dinamicas.iml" filepath="$PROJECT_DIR$/lesson22Y23.arreglos.bidimencionales.matrices.dinamicas/lesson22Y23.arreglos.bidimencionales.matrices.dinamicas.iml" />
     </modules>
   </component>
 </project>
