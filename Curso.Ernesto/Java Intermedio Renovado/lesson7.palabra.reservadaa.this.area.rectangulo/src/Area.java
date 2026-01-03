@@ -5,7 +5,7 @@ public class Area {
         this.base = base;
         this.altura = altura;
     }
-
+ 
 
     //Esta es mi lógica, usando "int" en rl metodo para poder ussar "return"
     // y retornar directamente el valor de la operacion sin usar la variable "resultado"
