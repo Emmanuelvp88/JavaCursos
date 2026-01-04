@@ -56,4 +56,22 @@ public class Funciones {
             System.out.println("Ciclo de lavado finalizado.");
         }
     }
+
+    //Metodo getter, sirve para mostrar el contenido de un objeto o una variable
+    public int getKilos() {
+        return kilos;
+    }
+
+    //Metodo setter, sirve para tener acceso a una variable que esta encapsulada de modo privado
+    public void setKilos(int kilos) {
+        this.kilos = kilos;
+    }
+
+    public int getTipoDeRopa() {
+        return tipoDeRopa;
+    }
+
+    public void setTipoDeRopa(int tipoDeRopa) {
+        this.tipoDeRopa = tipoDeRopa;
+    }
 }
