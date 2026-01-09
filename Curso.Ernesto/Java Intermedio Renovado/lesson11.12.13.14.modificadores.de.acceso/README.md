@@ -12,7 +12,7 @@ sigan una ruta espesificada por nosotros para acceder a la informacion.
 se declara la variable sin nada solo el tipo de variable y el nombre.
 EJEMPLO: "int numero".
 
-Este modificador tiene un alcance a nivel paquete, todas las clases dentro del mimo paquete 
+Este modificador tiene un alcance a nivel paquete, todas las clases dentro del mismo paquete 
 tendran acceso mediante la instancia, y las clases que esten en otros paquetes NO.
 
 ----------Modificadores de acceso ublicos------------
