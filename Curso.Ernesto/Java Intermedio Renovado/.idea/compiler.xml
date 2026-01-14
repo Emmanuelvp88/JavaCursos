@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="lesson17.palabra.reservada.super" />
+        <module name="leeson19.cajero.atm" />
         <module name="lesson16.polimorfismo" />
       </profile>
     </annotationProcessing>
