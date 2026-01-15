@@ -9,6 +9,7 @@ public class Main {
             case 1:
                 System.out.println("Elegiste la opcion 1: mostrar saldo");
                 deposito.MostrarSaldo();
+                Peticiones.opcion = 0;
                 Peticiones.PedirDatos();
 
             case 2:

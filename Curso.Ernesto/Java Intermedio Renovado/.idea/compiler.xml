@@ -7,12 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="lesson17.palabra.reservada.super" />
-        <module name="lesson19.cajero.atm" />
         <module name="lesson16.polimorfismo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="lesson15.herencia" target="23" />
+      <module name="lesson19.cajero.atm" target="23" />
     </bytecodeTargetLevel>
   </component>
 </project>
