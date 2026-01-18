@@ -9,7 +9,8 @@ public class Deposito extends Transacciones {
 //        dinero = getSaldo();
 //        setSaldo(dinero + efectivo);
 //        MostrarSaldo();
-        System.out.println("Eelgiste la opcion 3 deposito: ¿que cantidad deseas depositar? ");
+        System.out.println("Opcion 3: deposito.");
+        System.out.println("¿cuanto deseas depositar?");
         deposito = sc.nextInt();
         efectivo = getSaldo();
         setSaldo(efectivo + deposito);

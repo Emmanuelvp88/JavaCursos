@@ -12,11 +12,12 @@ public class Retiro extends Transacciones{
 //        }else {
 //            System.out.println("El monto de retiro es mayor al saldo, retirar una cantidad menor");
 //        }
-        System.out.println("elegiste la opcion 2: retiro. ¿Cuanto deseas retirar?");
+        System.out.println("Opcion 2: retiro.");
+        System.out.println("¿Cuanto deseas retirar?");
         retiro = sc.nextInt();
         efectivo = getSaldo();
         setSaldo(efectivo - retiro);
-        System.out.println("Retiarste " + retiro);
+        System.out.println("Retiraste " + retiro);
         System.out.println("tu saldo actual es: " + getSaldo());
 
     }

@@ -45,8 +45,7 @@ public class Main {
 //
 //            }
 //        } while (bandera != 1);
-
-        Transacciones cajero = new Deposito();
+        Transacciones cajero = new ConsultaSaldo();
         cajero.setSaldo(400);
         cajero.PedirDatos();
 

@@ -1,9 +1,8 @@
 import java.util.Scanner;
 
 public abstract class Transacciones {
-    private int saldo;
-//    int efectivo, dinero;
-    int deposito, retiro, efectivo;
+    private static int saldo;
+    protected int deposito, retiro, efectivo;
     protected Scanner sc = new Scanner(System.in);
     Transacciones transaccion = null;
 
@@ -16,14 +15,12 @@ public abstract class Transacciones {
                         "2.- Retiro de efectivo\n" +
                         "3.- Depsosito de efectivo\n" +
                         "4.- Salir");
-//                System.out.println("*********** Digita el numero de la operacion que deseas realizar. ***********");
                 int opcion = sc.nextInt();
 
                 switch (opcion) {
                     case 1:
-                        System.out.println("Elegiste la opcion 1: mostrar saldo");
-                        transaccion = new Deposito();
-                        transaccion.MostrarSaldo();
+                        transaccion = new ConsultaSaldo();
+                        transaccion.Operacion();
                         break;
                     case 2:
                         transaccion = new Retiro();
@@ -48,14 +45,7 @@ public abstract class Transacciones {
 
         }
 
-
-    public void MostrarSaldo() {
-        System.out.println("--------------------------");
-        System.out.println("Saldo actual: " + getSaldo());
-        System.out.println("--------------------------");
-    }
     public abstract void Operacion();
-
 
     public void setSaldo(int saldo) {
         this.saldo = saldo;
