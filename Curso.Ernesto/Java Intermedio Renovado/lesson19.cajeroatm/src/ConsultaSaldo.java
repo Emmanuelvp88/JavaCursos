@@ -1,4 +1,4 @@
-package PACKAGE_NAME;
+public class ConsultaSaldo extends Transacciones {
 
-public class ConsultaSaldo {
+    public void Operacio
 }
