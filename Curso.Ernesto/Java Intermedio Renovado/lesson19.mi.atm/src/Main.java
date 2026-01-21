@@ -28,7 +28,6 @@ public class Main {
                     System.out.println("---------------------------------------------");
                     break;
                 case 2:
-                    operacion = new Retiro(cajero);
                     operacion.ejecutar();
                     break;
                 case 3:
