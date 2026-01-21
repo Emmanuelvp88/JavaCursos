@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class Retiro extends Operacion {
 
+    //constructor que recibe el
     public Retiro( Cajero cajero) {
         super(cajero);
     }

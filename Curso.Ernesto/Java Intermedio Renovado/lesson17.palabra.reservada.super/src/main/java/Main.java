@@ -7,10 +7,9 @@ public class Main {
 
 
         /*creamos un objeto para mandar a llamar al metodo "Saludar()"que se encuentra en la clase hija, y sabemos que en la clase padre
-        tambien existe un metod ocon el mismo nombre.
+        tambien existe un metodo con el mismo nombre.
         el metodo de la clase hija contiene al metodo "Saludar()" de la clase padre referenciandolo con la palabra "Super"*/
         Padre hija = new Hija();
         hija.Saludar();
-
     }
 }

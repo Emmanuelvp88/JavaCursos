@@ -5,6 +5,8 @@ public class Main {
 
         //Objeto de tipo "Cajero" que manda el parámetro de la cantidad que va a alojar "saldo inicial"
         Cajero cajero = new Cajero(500);
+
+        //variable para romper el siclo del do-while
         int bandera = 0;
 
         do {
@@ -15,7 +17,8 @@ public class Main {
             System.out.println("4.- Salir");
             int opcion = new Scanner(System.in).nextInt();
 
-            //Objeto para iterar con las clases Retiro y Depósito
+            /*Objeto para instanciar con las clases Retiro y Depósito, le ponemos el valor  "null"
+              para posterior darle el valor de la clase hija con la que queremos instanciar*/
             Operacion operacion = null;
 
             switch (opcion) {
