@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class MainAtm {
     public static void main(String[] args) {
 
         //Objeto de tipo "Cajero" que manda el parámetro de la cantidad que va a alojar "saldo inicial"
