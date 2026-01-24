@@ -17,6 +17,7 @@
       <module fileurl="file://$PROJECT_DIR$/lesson20.vectores.dinamicos/lesson20.vectores.dinamicos.iml" filepath="$PROJECT_DIR$/lesson20.vectores.dinamicos/lesson20.vectores.dinamicos.iml" />
       <module fileurl="file://$PROJECT_DIR$/lesson21.arreglos.bidimencionales.matrices/lesson21.arreglos.bidimencionales.matrices.iml" filepath="$PROJECT_DIR$/lesson21.arreglos.bidimencionales.matrices/lesson21.arreglos.bidimencionales.matrices.iml" />
       <module fileurl="file://$PROJECT_DIR$/lesson22Y23.arreglos.bidimencionales.matrices.dinamicas/lesson22Y23.arreglos.bidimencionales.matrices.dinamicas.iml" filepath="$PROJECT_DIR$/lesson22Y23.arreglos.bidimencionales.matrices.dinamicas/lesson22Y23.arreglos.bidimencionales.matrices.dinamicas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practica/practica.iml" filepath="$PROJECT_DIR$/practica/practica.iml" />
     </modules>
   </component>
 </project>
