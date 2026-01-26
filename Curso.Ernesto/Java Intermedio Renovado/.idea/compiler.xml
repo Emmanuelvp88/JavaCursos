@@ -12,7 +12,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="lesson15.herencia" target="23" />
-      <module name="lesson19.cajero.atm" target="23" />
+      <module name="lesson19y20.cajero.atm" target="23" />
     </bytecodeTargetLevel>
   </component>
 </project>
