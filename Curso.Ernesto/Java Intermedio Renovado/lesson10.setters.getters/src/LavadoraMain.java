@@ -13,7 +13,7 @@ public class LavadoraMain {
 //                "3.- Centrifugar\n" +
 //                "4.- Secar");
 
-//        System.out.println("Coloque el numero de la fun cion que desea realizar.");
+//        System.out.println("Coloque el número de la fun cion que desea realizar.");
         System.out.println("Que tipo de ropa deseas lavar\n" +
                 "1.- Ropa blanca\n" +
                 "2.- Ropa de color\n" +
@@ -24,7 +24,7 @@ public class LavadoraMain {
 
         Funciones mensajero = new Funciones(kilos, tipoDeRopa);
 
-        //obtenemso el metodo setter mediante el objeto instanciado y modificamos el tipo de ropa para que sea 2
+        //obtenemos el método setter mediante el objeto instanciado y modificamos el tipo de ropa para que sea 2
         //tipo de ropa a color
         mensajero.setTipoDeRopa(2);
 
