@@ -6,7 +6,7 @@ public class MainHparametros {
         Proceso hilo1 = new Proceso(" hilo1");
         Proceso hilo2 = new Proceso(" hilo2");
 
-        //envio de parametros mediante los objetos
+        //envio de parametros mediante el metodo "setParametro"
         hilo1.setParametro(3);
         hilo2.setParametro(5);
 

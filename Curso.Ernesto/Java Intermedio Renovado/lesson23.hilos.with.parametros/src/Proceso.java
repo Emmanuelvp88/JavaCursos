@@ -1,4 +1,5 @@
 public class Proceso extends Thread {
+
     int parametro;
 
     //Constructor que recibe los parametros de tipo "Strigs"
