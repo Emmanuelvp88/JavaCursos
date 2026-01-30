@@ -18,6 +18,12 @@ public class EstadoMain {
 
 
         hilo2.start();
+
+        //hilo2.stop(); esta sentencia esta obsoleta, era la manera de matar a un hilo de golpe,
+        //por eso java la elimino porque al matarla de golpe no libera recursos, puede corromper datos
+        //incluso rompe la sincronizacion
+
+
         //con el metodo "sleep()" le damos un Delay al hilo en milisegundos, este metodo
         //es forzoso que este dentro de un "try, catch"
         try {
