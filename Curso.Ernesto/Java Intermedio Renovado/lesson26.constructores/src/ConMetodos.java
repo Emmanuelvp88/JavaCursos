@@ -4,11 +4,13 @@ public class ConMetodos extends ConConstructor {
     String nombre = "";
     Scanner sc = new Scanner(System.in);
 
+    //metodo para pedir datos
     public void pedirNombre() {
         System.out.println("¿Cual es tu nombre?");
         nombre = sc.nextLine();
     }
 
+    //metodo para mostrar los datos
     public void mostrarNombre() {
         System.out.println("Tu nombre es: " + nombre);
     }
