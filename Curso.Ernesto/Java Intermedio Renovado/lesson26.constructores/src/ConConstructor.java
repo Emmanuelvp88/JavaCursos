@@ -12,7 +12,7 @@ public class ConConstructor {
     }
 
 
-    //envio de atributos de un contructor desde la clase padre
+    //envío de atributos de un constructor desde la clase padre
     int x = 30;
 
     public ConConstructor(int x) {
