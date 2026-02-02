@@ -1,6 +1,6 @@
 
 public class MainHilos {
-    public static void main(String[] args) {
+     public static void main(String[] args) {
 
         Hilo1 hilo1 = new Hilo1();
         Hilo2 hilo2 = new Hilo2();
@@ -10,7 +10,7 @@ public class MainHilos {
         //hilo1
         hilo1.start();
         try{
-            hilo1.sleep(100);
+            Thread.sleep(100);
         }catch(InterruptedException e){
             System.out.println("Hilo1 interrupted" + e.getMessage());
         }
