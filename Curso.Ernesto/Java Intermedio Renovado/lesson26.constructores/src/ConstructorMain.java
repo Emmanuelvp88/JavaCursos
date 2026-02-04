@@ -5,12 +5,16 @@ public class ConstructorMain {
        ConConstructor mensajero = new ConConstructor();
 
        //Cuando no tenemos un constructor, podemos hacer la misma logica usando metodos
-       ConMetodos receptor = new ConMetodos(0, 0);//estos parametros lo s meti de rrelleno por que los pide forsoezamente
+       ConMetodos receptor = new ConMetodos();
        receptor.pedirNombre();
        receptor.mostrarNombre();
 
+
+      //NOTA: Tengamso bien en cuennta que unque creemos un objeto de tipo "Hija" siempre se ejecutara primero el constructor de la calse "Padre"
+
        //objeto para el ejercicio de GPT
-       ConMetodos GPT = new  ConMetodos( 25,5);
+      GptHija gpt = new GptHija(25, 5);
+
 
 
    }

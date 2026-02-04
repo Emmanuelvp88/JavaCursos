@@ -6,17 +6,8 @@ public class ConConstructor {
         String nombre = "";
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("¿cual es tu nombre?");
+        System.out.println("¿cual es tu nombre?: 'con el constructor'");
         nombre = sc.nextLine();
         System.out.println("Tu nombre es: " + nombre);
-    }
-
-
-    //envío de atributos de un constructor desde la clase padre
-    int x = 30;
-
-    public ConConstructor(int x) {
-        this.x = x;
-        System.out.println("El valor de x es: " + x);
     }
 }

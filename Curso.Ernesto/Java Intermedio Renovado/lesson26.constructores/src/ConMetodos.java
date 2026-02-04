@@ -1,12 +1,12 @@
 import java.util.Scanner;
 
-public class ConMetodos extends ConConstructor {
+public class ConMetodos  {
     String nombre = "";
     Scanner sc = new Scanner(System.in);
 
     //metodo para pedir datos
     public void pedirNombre() {
-        System.out.println("¿Cual es tu nombre?");
+        System.out.println("¿Cual es tu nombre?: 'Con metodos'");
         nombre = sc.nextLine();
     }
 
@@ -14,17 +14,4 @@ public class ConMetodos extends ConConstructor {
     public void mostrarNombre() {
         System.out.println("Tu nombre es: " + nombre);
     }
-
-
-    //Ejercicio propuesto por GPT, donde demustra en levio de atributos y la recepcion de parametros
-    //mediannte super(), y this
-    int y;
-
-    public ConMetodos(int x, int y) {
-        super(x);
-        this.y = y;
-        System.out.println("El valor de y es: " + y);
-
-    }
-
 }
