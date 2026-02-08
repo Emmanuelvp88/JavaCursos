@@ -23,10 +23,14 @@ public class LimitarDecimales {
         //Se usa cuando quieres seguir operando con la variable
 
         //Utilizando la clase Math BigDecimal
-        BigDecimal bd = new BigDecimal(raiz);
+        BigDecimal bd = new BigDecimal(String.valueOf(raiz));
         bd = bd.setScale(2, RoundingMode.HALF_UP);
         System.out.println("Raiz cuadrada con BigDecimal: " + bd.doubleValue());
         //Muy elegible en finanzas, alta precision y control de decimales
+
+        //RECOMENDACIONES: ✔️ Usa double + Math.round() para aprender lógica
+        //✔️ Usa String.format() para salida
+        //✔️ Usa BigDecimal cuando el dominio lo exige
 
     }
 }
