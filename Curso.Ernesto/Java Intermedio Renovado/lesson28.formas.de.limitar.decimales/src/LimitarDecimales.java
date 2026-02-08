@@ -19,6 +19,7 @@ public class LimitarDecimales {
         //La forma mas elegante de hacerlo
 
         //Utilizando la clase Math.round()
+        //(double) esto se le llama hacer un casting, convierte en este caso el tipo de dato en "double"
         System.out.println("raiz cuadrada con Math.round: " + (double) Math.round(raiz * 100) / 100);
         //Se usa cuando quieres seguir operando con la variable
 
