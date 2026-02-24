@@ -2,6 +2,8 @@ import javax.swing.*;
 import java.awt.event.*;
 
 public class Interfaces extends JFrame implements ActionListener{
+
+    //Aqui solo esta la declaracion de los objetos que iremos a utilizar, aun no se inicializan
     private final JTextField field1;
     private JLabel label1;
     private JButton boton1;
@@ -11,20 +13,24 @@ public class Interfaces extends JFrame implements ActionListener{
         setLayout(null);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
 
+        //Inicializacion del Objeto
         label1 = new JLabel("Escribe aquí:");
+        //Damos cordenadas al objeto con el metodo "setBounds()"
         label1.setBounds(30, 25, 80,50);
+        //Agregamos el diseño anterior al objeto con el metodo "add()"
         add(label1);
 
+        //Inicializacion del Objeto
         field1 = new JTextField();
+        //Damos cordenadas al objeto con el metodo "setBounds()"
         field1.setBounds(120, 40, 130,20);
+        //Agregamos el diseño anterior al objeto con el metodo "add()"
         add(field1);
 
-        //Con esto le decimos que "boton1" va a hacer un nuevo objeto de la calse "JButton"
         boton1 = new JButton("Mostrar");
-        /* con el método setBounds() damos coordenadas al objeto */
         boton1.setBounds(40, 70, 80,30);
-        /* "add" sirve para agregar todo el diseño anterior al objeto que este dentro del metodo */
         add(boton1);
+        //Decimos que este boto va a tener un evento
         boton1.addActionListener(this);
     }
 
@@ -42,13 +48,21 @@ public class Interfaces extends JFrame implements ActionListener{
             }
     }
 
-    //método "main" para poderle dar diseño a nuestro FRAME que va contener a nuestros objetos
+    //Agregamos el metodo "main" para poderle dar diseño a nuestro FRAME que va a contener a nuestros objetos
     public static void main(String[] args){
+
+        //Esto es prácticamente una ventana (Frame) en blaco para contener a todos nuestros objetos que emos creado anteriormente
+        //Creamos u nuevo Objeto de la clase "Interfaces"
         Interfaces frame = new Interfaces();
+        //con esto le decimos que queremos que sea visible
         frame.setVisible(true);
-        frame.setSize(300,170);
+        //Le damos dimensions
+        frame.setSize(300, 170);
+        //Le decimos que no queremos que sea modificable el tamaño
         frame.setResizable(false);
+        //Que su locación esté centrada
         frame.setLocationRelativeTo(null);
+        //Que el cerrarse cierre todos los procesos para que no consuma mas recursos o se cree un demonio
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
     }
