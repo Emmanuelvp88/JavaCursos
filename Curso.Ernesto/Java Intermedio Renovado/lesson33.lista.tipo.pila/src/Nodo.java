@@ -1,10 +1,11 @@
 public class Nodo {
 
     int informacion;
-    Nodo sigiente;
+    Nodo siguiente;
 
-    public Nodo(int dato){
-
+    public Nodo(int valor){
+        informacion = valor;
+        siguiente = null;
 
     }
 
