@@ -24,10 +24,10 @@ public class Pila {
         tamanoPila++;
     }
 
-    //Metodo para quitar un nodo
-    public int quitarNodo() {
+    //Metodo para eliminar un nodo
+    public int eliminarNodo() {
         Nodo auxiliar = top;
-        auxiliar = auxiliar.siguiente;
+        top = top.siguiente;
         tamanoPila--;
         return auxiliar.dato;
     }
@@ -61,14 +61,14 @@ public class Pila {
         if(!pilaVacia()){
             Nodo auxiliar = top;
             while(auxiliar != null){
-                lista =+ auxiliar.dato + "\n";
+                lista += auxiliar.dato + "\n";
                 auxiliar = auxiliar.siguiente;
             }
-
         }else{
             JOptionPane.showMessageDialog(null, " la pila esta vacia");
         }
-        return lista;
+      return lista;
+
     }
 
 
