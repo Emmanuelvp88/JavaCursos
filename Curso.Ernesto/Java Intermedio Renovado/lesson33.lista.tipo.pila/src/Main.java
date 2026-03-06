@@ -1,17 +1,14 @@
 import javax.swing.JOptionPane;
 
 public class Main {
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
         int opcion = 0;
         Pila pila = new Pila();
 
 
-
-
-
-        do{
-            opcion = Integer.parseInt(JOptionPane.showInputDialog(null,"Bienvenido al menu  de opciones\n" +
+        do {
+            opcion = Integer.parseInt(JOptionPane.showInputDialog(null, "Bienvenido al menu  de opciones\n" +
                     "1 insertar un nodo \n" +
                     "2 eliminar un nodo\n" +
                     "3 ver si pila esta vacia\n" +
@@ -20,24 +17,24 @@ public class Main {
                     "6 vaciar pila\n" +
                     "7 monstrar contenido de pila\n" +
                     "8 salir \n \n"));
-            try{
-                switch (opcion){
+            try {
+                switch (opcion) {
                     case 1:
                         pila.insertarUnNodo(Integer.parseInt(JOptionPane.showInputDialog(null, "Ingresa el valor del nodo")));
                         break;
 
                     case 2:
-                        if (pila.pilaVacia()){
+                        if (pila.pilaVacia()) {
                             JOptionPane.showMessageDialog(null, "La pila esta vacia");
-                        }else{
+                        } else {
                             JOptionPane.showMessageDialog(null, "Se a eliminado el nodo: " + pila.eliminarNodo());
 
                         }
-                            break;
+                        break;
                     case 3:
-                        if (pila.pilaVacia()){
+                        if (pila.pilaVacia()) {
                             JOptionPane.showMessageDialog(null, "La pila esta vacia");
-                        }else{
+                        } else {
                             JOptionPane.showMessageDialog(null, "La pila no esta vacia");
                         }
                         break;
@@ -45,7 +42,7 @@ public class Main {
                     case 4:
                         if (pila.pilaVacia()) {
                             JOptionPane.showMessageDialog(null, "La pila esta vacia");
-                        }else {
+                        } else {
                             JOptionPane.showMessageDialog(null, pila.mostrarTop());
 
                         }
@@ -53,33 +50,28 @@ public class Main {
                     case 5:
                         if (pila.pilaVacia()) {
                             JOptionPane.showMessageDialog(null, "La pial esta vacia");
-                        }else{
+                        } else {
                             JOptionPane.showMessageDialog(null, "La pial contiene " + pila.tamanoPila() + " nodos");
                         }
                         break;
                     case 6:
                         if (pila.pilaVacia()) {
                             JOptionPane.showMessageDialog(null, "La pila esta vacia");
-                        }else {
+                        } else {
                             pila.vaciaPila();
                         }
                         break;
 
                     case 7:
-                        if(pila.pilaVacia()){
-                            JOptionPane.showMessageDialog(null, "La pila esta vacia");
-                        }else {
-                            JOptionPane.showMessageDialog(null, pila.mostrarTodaLaPila());
-                        }
-                        pila.lista = "";
+                        pila.mostrarTodaLaPila();
                         break;
                     case 8:
                         opcion = 8;
                         break;
-                }            }
-                catch(NumberFormatException e){
+                }
+            } catch (NumberFormatException e) {
 
             }
-        }while(opcion != 8);
+        } while (opcion != 8);
     }
 }

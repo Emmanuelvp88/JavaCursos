@@ -57,7 +57,7 @@ public class Pila {
 
     }
     //Metodo para mostrar el contenido de la Pila
-    public String mostrarTodaLaPila(){
+    public void mostrarTodaLaPila(){
         if(!pilaVacia()){
             Nodo auxiliar = top;
             while(auxiliar != null){
@@ -67,7 +67,9 @@ public class Pila {
         }else{
             JOptionPane.showMessageDialog(null, " la pila esta vacia");
         }
-      return lista;
+        JOptionPane.showMessageDialog(null, lista);
+        lista = "";
+
 
     }
 
