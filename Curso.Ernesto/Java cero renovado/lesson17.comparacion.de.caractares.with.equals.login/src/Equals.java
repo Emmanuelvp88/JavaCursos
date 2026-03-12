@@ -14,7 +14,7 @@ public class Equals {
         if (nombre.equalsIgnoreCase("Emmanuel") && pasword.equals("java777")){
             System.out.println("Bienvenido al curso de java con Ernesto");
         }else {
-            System.out.println("El nombre de usuario o contraseña con incorrectos");
+            System.out.println("El nombre de usuario o contraseña son incorrectos");
         }
         //el metodo "equals" es para comparar que sean estrctamente iguales una cadene de caracteres
         //para ignorar entre mayusculas y minisculas se le agrega "IgnoreCase" al equals (equalsIgnoreCase) asi quedaria
