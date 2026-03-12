@@ -6,7 +6,18 @@ public class Pila {
     }
 
     // Metodo para insertar en la pila
-    public void insertar(){
+    public void insertar(char valor){
+        Nodo nuevo = new Nodo();
+        nuevo.dato = valor;
+
+        if(top == null){
+            top = null;
+            top = nuevo;
+
+        }else {
+            nuevo.siguiente = top;
+            top = nuevo;
+        }
 
     }
 
