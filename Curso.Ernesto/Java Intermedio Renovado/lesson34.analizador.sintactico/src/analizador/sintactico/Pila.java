@@ -1,3 +1,5 @@
+package analizador.sintactico;
+
 public class Pila {
     private Nodo top;
 
