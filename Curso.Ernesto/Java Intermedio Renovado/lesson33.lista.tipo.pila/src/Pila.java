@@ -18,7 +18,8 @@ public class Pila {
 
     //Metodo para ingresar un nuevo Nodo
     public void insertarUnNodo(int valor) {
-        Nodo nuevo = new Nodo(valor);
+        Nodo nuevo = new Nodo();
+        nuevo.dato = valor;
         nuevo.siguiente = top;
         top = nuevo;
         tamanoPila++;
