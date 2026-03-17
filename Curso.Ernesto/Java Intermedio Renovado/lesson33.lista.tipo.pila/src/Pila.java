@@ -18,8 +18,7 @@ public class Pila {
 
     //Metodo para ingresar un nuevo Nodo
     public void insertarUnNodo(int valor) {
-        Nodo nuevo = new Nodo();
-        nuevo.dato = valor;
+        Nodo nuevo = new Nodo(valor);
         nuevo.siguiente = top;
         top = nuevo;
         tamanoPila++;
@@ -43,39 +42,35 @@ public class Pila {
 
     //Metodo para conocer el tamaño de la pila
     public int tamanoPila() {
-        if (pilaVacia()){
+        if (pilaVacia()) {
             JOptionPane.showMessageDialog(null, " la pila esta vacia");
         }
         return tamanoPila;
     }
 
     //Metodo para Vacia Pila
-    public void vaciaPila(){
-        while(!pilaVacia()){
+    public void vaciaPila() {
+        while (!pilaVacia()) {
             top = top.siguiente;
         }
         JOptionPane.showMessageDialog(null, " La pila se Vacio correctamente!");
 
     }
+
     //Metodo para mostrar el contenido de la Pila
-    public void mostrarTodaLaPila(){
-        if(!pilaVacia()){
+    public void mostrarTodaLaPila() {
+        if (!pilaVacia()) {
             Nodo auxiliar = top;
-            while(auxiliar != null){
+            while (auxiliar != null) {
                 lista += auxiliar.dato + "\n";
                 auxiliar = auxiliar.siguiente;
             }
-        }else{
+        } else {
             JOptionPane.showMessageDialog(null, " la pila esta vacia");
         }
         JOptionPane.showMessageDialog(null, lista);
         lista = "";
-
-
     }
-
-
-
 }
 
 
