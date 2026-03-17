@@ -1,14 +1,16 @@
 public class MainHilos {
-    static void main() {
-        //Con la herencia nadamas creamos un objeto
+    public static void main(String [] args) {
+
+        //Con la herencia nadamas creamos un objeto del tipo de la clase
         Hilo1 hilo1 = new Hilo1();
 
-        //Con "Implements" Tenemos que instanciar un constructor de la clase "Hilo2" dentro del objeto
-        Thread thread1 = new Thread(new Hilo2());
+        /*Con "Implements" Tenemos que instanciar el constructor de la clase "Hilo2"
+         dentro del objeto del tipo "Thread"  */
+        Thread thread2 = new Thread(new Hilo2());
 
         //Se arrancan los objetos de cada clase con el metodo "start()", arrancan los hilos de cada clase
         hilo1.start();
-        thread1.start();
+        thread2.start();
 
     }
 }
