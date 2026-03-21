@@ -1,31 +1,47 @@
+import java.util.OptionalInt;
+
 public class Cola {
     Nodo inicioCola, finalCola;
 
-    public Cola(){
+    public Cola() {
         this.inicioCola = null;
         this.finalCola = null;
     }
 
 
-    //metodo para insertar un Nodo
-    public void insertar(int informacion){
+    // Metodo para insertar un Nodo
+    public void insertar(int informacion) {
         Nodo nuevoNodo = new Nodo(informacion);
 
-        if (estaVacia()){
+        if (estaVacia()) {
             inicioCola = nuevoNodo;
             finalCola = nuevoNodo;
-        }else{
+        } else {
             finalCola.siguiente = nuevoNodo;
             finalCola = nuevoNodo;
         }
     }
 
 
-    //metodo para validar si la colo esta vacia
-    public boolean estaVacia (){
+    // Metodo para validar si la colo esta vacia
+    public boolean estaVacia() {
         return finalCola == null;
     }
 
+    // Metodo para extraer un Nodo
+    public int extraer() {
+        if (estaVacia()) {
+            return -1;
+        }
 
+        int auxiliar = inicioCola.dato;
 
+        if (inicioCola == finalCola) {
+            inicioCola = null;
+            finalCola = null;
+        } else {
+            inicioCola = inicioCola.siguiente;
+        }
+        return auxiliar;
+    }
 }
