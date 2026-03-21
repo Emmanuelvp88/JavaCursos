@@ -1,5 +1,9 @@
 public class Nodo {
     int dato;
-    Nodo  siguiente1;
+    Nodo  siguiente;
 
+    public Nodo (int dato){
+        this.dato = dato;
+        this.siguiente = null;
+    }
 }
