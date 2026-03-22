@@ -32,7 +32,7 @@ public class Cola {
     // Metodo para extraer un Nodo
     public int extraer() {
         if (estaVacia()) {
-            return -1;
+            return 0;
         }
 
         int auxiliar = inicioCola.dato;
