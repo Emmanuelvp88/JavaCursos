@@ -1,3 +1,4 @@
+import javax.swing.*;
 import java.util.OptionalInt;
 
 public class Cola {
@@ -43,5 +44,20 @@ public class Cola {
             inicioCola = inicioCola.siguiente;
         }
         return auxiliar;
+    }
+
+    // Metodo para mostrar contenido
+    public void mostrarContenido(){
+        if(estaVacia()){
+            JOptionPane.showMessageDialog(null, "La cola esta vacia");
+            return;
+        }
+
+        Nodo recorrido = inicioCola.siguiente;
+        String contenido = "";
+
+        while(recorrido != null){
+
+        }
     }
 }
