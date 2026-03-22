@@ -53,11 +53,15 @@ public class Cola {
             return;
         }
 
-        Nodo recorrido = inicioCola.siguiente;
+        Nodo recorrido = inicioCola;
         String contenido = "";
 
         while(recorrido != null){
-
+            contenido += recorrido.dato + " -> ";
+            recorrido = recorrido.siguiente;
         }
+
+        contenido += "null";
+        JOptionPane.showMessageDialog(null, contenido);
     }
 }
