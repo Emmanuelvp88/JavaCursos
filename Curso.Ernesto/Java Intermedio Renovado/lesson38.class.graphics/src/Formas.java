@@ -31,11 +31,19 @@ public class Formas extends JFrame {
         g.drawOval(350, 50, 60,100); //Paa dibujar un Ovalo
 
         //vectores para darle cordenadas a un trinagulo
-        //De atras hacia deante seria vertice A,B y C
+        //De atras hacia deante seria vertice A,B y C para darle forma de triangulo a las lineas
         int vectorX [] = {500, 550, 450};
         int vectorY [] = {50, 140, 140};
-        g.drawPolygon(vectorX, vectorY, vectorX.length); //Para dibujar un triangulo con los vectores acteriores
+        g.drawPolygon(vectorX, vectorY, vectorX.length); //Para dibujar un triángulo con los vectores anteriores
 
+
+        //Esto es para rrellenar las figuras
+        g.setColor(Color.cyan);
+        g.fillRect(151, 51, 59, 99);
+        g.fillRoundRect(251, 51, 59, 99, 6, 6);
+        g.fillOval(351, 51,59, 99);
+
+        g.fillPolygon(vectorX, vectorY, vectorX.length); //Para rellenar el triángulo con los vectores anteriores
 
 
     }
