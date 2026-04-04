@@ -4,7 +4,6 @@ import java.awt.*;
 public class Formas extends JFrame {
 
     public Formas(){
-//        initComponents();
         this.setBounds(0,0,600,400);
         this.setLocationRelativeTo(null);
     }

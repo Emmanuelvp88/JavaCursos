@@ -1,2 +1,6 @@
-public class Pastel {
+import javax.swing.*;
+
+public class Pastel extends JFrame {
+
+
 }
