@@ -16,6 +16,6 @@ public class Pastel extends JFrame {
     public static void main(String [] args){
 
     }
- private boton1 = pastel.
+// private boton1 = pastel.
 
 }
