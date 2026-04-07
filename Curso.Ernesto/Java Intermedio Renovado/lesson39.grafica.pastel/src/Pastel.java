@@ -16,11 +16,19 @@ public class Pastel extends JFrame {
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setVisible(true);
 
-        //mandamos a llamar al metodo que contiene lso componentes
+        // Mandamos a llamar al metodo que contiene lso componentes
         initComponents();
     }
 
     public void initComponents() {
+
+        // Titulo
+        JLabel titulo = newJLabel("Color Favorito");
+        titulo.setFont(new Font("Arial", Font.BOLD, 18));
+        titulo.setBounds(180,10,150,30);
+        this.add(titulo);
+
+        // Panel de dibujo
         panelGrafica = new JPanel() {
             @Override
             protected void paintComponent(Graphics g){
@@ -28,6 +36,7 @@ public class Pastel extends JFrame {
                 dibujarGrafica(g);
             }
         };
+
         panelGrafica.setBounds(20,50,300,250);
         panelGrafica.setBackground(Color.LIGHT_GRAY);
         this.add(panelGrafica);
@@ -36,8 +45,14 @@ public class Pastel extends JFrame {
 
 
 
+
+
+
     }
 
+    public void dibujarGrafica(Graphics g){
+
+    }
     boolean bandera = false;
 
 
