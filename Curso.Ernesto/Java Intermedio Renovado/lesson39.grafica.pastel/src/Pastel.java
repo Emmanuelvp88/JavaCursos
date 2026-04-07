@@ -1,11 +1,12 @@
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class Pastel extends JFrame {
 
     JTextField txtRojo, txtVerde, txtAzul;
-    JButton graficar;
+    JButton btnGraficar;
     JPanel panelGrafica;
     int rojo, verde, azul;
 
@@ -72,8 +73,25 @@ public class Pastel extends JFrame {
         txtAzul.setBounds(80,380,80,25);
         this.add(txtAzul);
 
+        // Boton
+        btnGraficar = new JButton("Graficar");
+        btnGraficar.setBounds(320, 240,100,30);
+        this.add(btnGraficar);
+
+        // Evento del boton
+        btnGraficar.addActionListener(new ActionListener(){
+            @Override
+            public void actionPerformed(ActionEvent e){
+                try{
+
+                }catch(NumberFormatException ex){
+                    JOptionPane.showMessageDialog(null, "Ingrese solo numeros enteros");
+                }
+            }
+        });
 
     }
+
 
     public void dibujarGrafica(Graphics g){
 
