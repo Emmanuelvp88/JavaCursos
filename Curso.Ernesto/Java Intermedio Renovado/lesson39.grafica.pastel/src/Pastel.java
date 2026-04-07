@@ -9,7 +9,7 @@ public class Pastel extends JFrame {
     JPanel panelGrafica;
     int rojo, verde, azul;
 
-    public Pastel(){
+    public Pastel() {
         this.setTitle("Grafica de Pastel");
         this.setSize(500, 450);
         this.setLocationRelativeTo(null);
@@ -17,28 +17,30 @@ public class Pastel extends JFrame {
         this.setVisible(true);
 
         //mandamos a llamar al metodo que contiene lso componentes
-        initComponent();
+        initComponents();
     }
 
-   panelGrafica = new JPanel(){
-        @Override
-                protected void paintComponent(Graphics g);
-    };
+    public void initComponents() {
+        panelGrafica = new JPanel() {
+            @Override
+            protected void paintComponent(Graphics g){
+                super.paintComponent(g);
+                dibujarGrafica(g);
+            }
+        };
+        panelGrafica.setBounds(20,50,300,250);
+        panelGrafica.setBackground(Color.LIGHT_GRAY);
+        this.add(panelGrafica);
+
+
+
+
+
+    }
 
     boolean bandera = false;
 
 
-
-
-
-    public void initComponent(){
-
+    public static void main(String[] args) {
     }
-
-
-
-    public static void main(String [] args){
-    }
-
-
 }
