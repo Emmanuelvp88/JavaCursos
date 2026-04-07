@@ -41,11 +41,21 @@ public class Pastel extends JFrame {
         panelGrafica.setBackground(Color.LIGHT_GRAY);
         this.add(panelGrafica);
 
+        // Etiquetas de colores (Leyenda)
+        JLabel lblRojo = new JLabel("Color Rojo");
+        lblRojo.setForeground(Color.RED);
+        lblRojo.setBounds(350,90,100,30);
+        this.add(lblRojo);
 
+        JLabel lblVerde = new JLabel("Color Verde");
+        lblVerde.setForeground(Color.GREEN.darker());
+        lblVerde.setBounds(350,130,100,30);
+        this.add(lblVerde);
 
-
-
-
+        JLabel lblAzul = new JLabel("Color Azul");
+        lblAzul.setForeground(Color.BLUE);
+        lblAzul.setBounds(350,170,100,30);
+        this.add(lblAzul);
 
 
     }
