@@ -14,16 +14,18 @@ public class Pastel extends JFrame {
         this.setSize(500, 450);
         this.setLocationRelativeTo(null);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        this.setVisible(true);
+        this.setLayout(null);
 
         // Mandamos a llamar al metodo que contiene lso componentes
         initComponents();
+
+        this.setVisible(true);
     }
 
     public void initComponents() {
 
         // Titulo
-        JLabel titulo = newJLabel("Color Favorito");
+        JLabel titulo = new JLabel("Color Favorito");
         titulo.setFont(new Font("Arial", Font.BOLD, 18));
         titulo.setBounds(180,10,150,30);
         this.add(titulo);
@@ -57,6 +59,19 @@ public class Pastel extends JFrame {
         lblAzul.setBounds(350,170,100,30);
         this.add(lblAzul);
 
+        // Los TextField
+        txtRojo = new JTextField();
+        txtRojo.setBounds(80,320,80,25);
+        this.add(txtRojo);
+
+        txtVerde = new JTextField();
+        txtVerde.setBounds(80,350,80,25);
+        this.add(txtVerde);
+
+        txtAzul = new JTextField();
+        txtAzul.setBounds(80,380,80,25);
+        this.add(txtAzul);
+
 
     }
 
@@ -67,5 +82,6 @@ public class Pastel extends JFrame {
 
 
     public static void main(String[] args) {
+        new Pastel();
     }
 }
