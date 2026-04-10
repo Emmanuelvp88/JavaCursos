@@ -94,9 +94,14 @@ public class Pastel extends JFrame {
 
 
     public void dibujarGrafica(Graphics g){
+        int total = rojo + verde + azul;
 
+        if (total == 0){
+            g.setColor(Color.BLACK);
+            g.drawString("No hay datos para graficar",80,120);
+            return;
+        }
     }
-    boolean bandera = false;
 
 
     public static void main(String[] args) {
