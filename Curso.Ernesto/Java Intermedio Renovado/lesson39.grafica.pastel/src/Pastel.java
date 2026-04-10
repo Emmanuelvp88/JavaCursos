@@ -83,7 +83,12 @@ public class Pastel extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e){
                 try{
+                    rojo = Integer.parseInt(txtRojo.getText());
+                    verde = Integer.parseInt(txtVerde.getText());
+                    azul = Integer.parseInt(txtAzul. getText());
 
+                    //Vuelver a dibujar
+                    panelGrafica.repaint();
                 }catch(NumberFormatException ex){
                     JOptionPane.showMessageDialog(null, "Ingrese solo numeros enteros");
                 }
@@ -103,10 +108,20 @@ public class Pastel extends JFrame {
         }
 
         // Convertir los votos a grados
-        int gradoRojo = (rojo * 360) / total;
+        int gradosRojo = (rojo * 360) / total;
         int gradosVerde = (verde * 360) / total;
-        int gradosAzul = 360 - gradosVerde - gradoRojo;
+        int gradosAzul = 360 - gradosVerde - gradosRojo;
 
+
+        // Dibujar los sectores
+        g.setColor(Color.RED);
+        g.fillArc(30,20,200,200, 0, gradosRojo);
+
+        g.setColor(Color.GREEN.darker());
+        g.fillArc(30,20,200,200,gradosRojo, gradosVerde);
+
+        g.setColor(Color.BLUE);
+        g.fillArc(30,20,200,200,gradosRojo + gradosVerde, gradosAzul);
 
     }
 
