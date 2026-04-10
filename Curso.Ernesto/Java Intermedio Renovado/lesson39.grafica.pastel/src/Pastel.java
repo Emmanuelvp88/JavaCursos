@@ -60,6 +60,26 @@ public class Pastel extends JFrame {
         lblAzul.setBounds(350,170,100,30);
         this.add(lblAzul);
 
+        // Cuadritos de Colores
+        JPanel rojoBox = new JPanel();
+        rojoBox.setBackground(Color.RED);
+        rojoBox.setBounds(320,170,100,30);
+        this.add(rojoBox);
+
+        JPanel verdeBox = new JPanel();
+        verdeBox.setBackground(Color.GREEN.darker());
+        verdeBox.setBounds(320,135,20,20);
+        this.add(verdeBox);
+
+        JPanel azulBox = new JPanel();
+        azulBox.setBackground(Color.BLUE);
+        azulBox.setBounds(320,175,20,20);
+        this.add(azulBox);
+
+
+
+
+
         // Los TextField
         txtRojo = new JTextField();
         txtRojo.setBounds(80,320,80,25);
