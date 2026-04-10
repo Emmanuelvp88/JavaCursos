@@ -47,51 +47,50 @@ public class Pastel extends JFrame {
         // Etiquetas de colores (Leyenda)
         JLabel lblRojo = new JLabel("Color Rojo");
         lblRojo.setForeground(Color.RED);
-        lblRojo.setBounds(350,90,100,30);
+        lblRojo.setBounds(380,90,100,30);
         this.add(lblRojo);
 
         JLabel lblVerde = new JLabel("Color Verde");
         lblVerde.setForeground(Color.GREEN.darker());
-        lblVerde.setBounds(350,130,100,30);
+        lblVerde.setBounds(380,130,100,30);
         this.add(lblVerde);
 
         JLabel lblAzul = new JLabel("Color Azul");
         lblAzul.setForeground(Color.BLUE);
-        lblAzul.setBounds(350,170,100,30);
+        lblAzul.setBounds(380,170,100,30);
         this.add(lblAzul);
 
         // Cuadritos de Colores
         JPanel rojoBox = new JPanel();
         rojoBox.setBackground(Color.RED);
-        rojoBox.setBounds(320,170,100,30);
+        rojoBox.setBounds(350,95,20,20);
         this.add(rojoBox);
 
         JPanel verdeBox = new JPanel();
         verdeBox.setBackground(Color.GREEN.darker());
-        verdeBox.setBounds(320,135,20,20);
+        verdeBox.setBounds(350,135,20,20);
         this.add(verdeBox);
 
         JPanel azulBox = new JPanel();
         azulBox.setBackground(Color.BLUE);
-        azulBox.setBounds(320,175,20,20);
+        azulBox.setBounds(350,175,20,20);
         this.add(azulBox);
 
-        // Labels de entrada
-        JLabel lbRojo = new JLabel();
+        // Labels entrada de votos
+        JLabel lbRojo = new JLabel("Rojo");
         lbRojo.setBounds(30,320,50,25);
         this.add(lbRojo);
 
-        JLabel lbVerde = new JLabel();
+        JLabel lbVerde = new JLabel("Verde");
         lbVerde.setBounds(30,350,50,25);
         this.add(lbVerde);
 
-        JLabel lbAzul = new JLabel();
+        JLabel lbAzul = new JLabel("Azul");
         lbAzul.setBounds(30,380,50,25);
         this.add(lbAzul);
 
 
-
-        // Los TextField
+        // Los TextField par los votos
         txtRojo = new JTextField();
         txtRojo.setBounds(80,320,80,25);
         this.add(txtRojo);
@@ -104,9 +103,9 @@ public class Pastel extends JFrame {
         txtAzul.setBounds(80,380,80,25);
         this.add(txtAzul);
 
-        // Boton
+        // Boton graficar
         btnGraficar = new JButton("Graficar");
-        btnGraficar.setBounds(320, 240,100,30);
+        btnGraficar.setBounds(350, 240,100,30);
         this.add(btnGraficar);
 
         // Evento del boton
@@ -128,7 +127,7 @@ public class Pastel extends JFrame {
 
     }
 
-
+// Metodo para dibujar el círculo para gráfica pastel
     public void dibujarGrafica(Graphics g){
         int total = rojo + verde + azul;
 
@@ -158,6 +157,6 @@ public class Pastel extends JFrame {
 
 
     public static void main(String[] args) {
-        new Pastel();
+               new Pastel();
     }
 }
