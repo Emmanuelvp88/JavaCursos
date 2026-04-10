@@ -101,6 +101,13 @@ public class Pastel extends JFrame {
             g.drawString("No hay datos para graficar",80,120);
             return;
         }
+
+        // Convertir los votos a grados
+        int gradoRojo = (rojo * 360) / total;
+        int gradosVerde = (verde * 360) / total;
+        int gradosAzul = 360 - gradosVerde - gradoRojo;
+
+
     }
 
 
