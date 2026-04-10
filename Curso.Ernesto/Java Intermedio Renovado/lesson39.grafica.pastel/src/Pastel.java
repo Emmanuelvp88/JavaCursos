@@ -76,7 +76,18 @@ public class Pastel extends JFrame {
         azulBox.setBounds(320,175,20,20);
         this.add(azulBox);
 
+        // Labels de entrada
+        JLabel lbRojo = new JLabel();
+        lbRojo.setBounds(30,320,50,25);
+        this.add(lbRojo);
 
+        JLabel lbVerde = new JLabel();
+        lbVerde.setBounds(30,350,50,25);
+        this.add(lbVerde);
+
+        JLabel lbAzul = new JLabel();
+        lbAzul.setBounds(30,380,50,25);
+        this.add(lbAzul);
 
 
 
