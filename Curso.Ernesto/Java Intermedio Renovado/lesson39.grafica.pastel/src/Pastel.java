@@ -23,6 +23,7 @@ public class Pastel extends JFrame {
         this.setVisible(true);
     }
 
+
     public void initComponents() {
 
         // Titulo
@@ -33,7 +34,7 @@ public class Pastel extends JFrame {
 
         // Panel de dibujo
         panelGrafica = new JPanel() {
-            @Override
+             @Override
             protected void paintComponent(Graphics g){
                 super.paintComponent(g);
                 dibujarGrafica(g);
